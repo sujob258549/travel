@@ -386,8 +386,9 @@ h5 {
 
 .discound .m-flex {
     display: flex;
-    gap: 25px;
+    gap: 22px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .discound i {
@@ -761,11 +762,63 @@ footer p {
     }
 
     .discound .flex-column12 {
-       width: 100%;
+        width: 100%;
         margin-left: 0px;
         margin: 0 30px;
     }
 
+    .discound p {
+        padding-bottom: 20px;
+    }
+
+    .flx p {
+        padding: 0;
+    }
+
+    .discound .m-flex {
+        row-gap: 9px;
+    }
+
+    .plase-section .main-column{
+        flex-direction: column;
+        row-gap: 50px;
+    }
+
+    .contract .main-column {
+        flex-direction: column;
+        row-gap: 50px;
+    }
+
+    .plase-section .flex-column1, .plase-section .flex-column, .contract .flex-column1, .contract .flex-column2 {
+       width: 100%;
+    }
+    .discound {
+        padding: 50px 0;
+    }
+
+    .transfroms {
+       bottom: 45px;
+       width: 140px;
+       right: 35px;
+
+    }
+
+    .contract {
+        padding: 50px 0;
+    }
+
+    footer .main-column1, .main-2 {
+        width: 100%;
+    }
+    .transfroms p {
+        font-size: 19px;
+    }
+
+    .transfroms h2 {
+        font-size: 12px;
+    }
+    
+     
 
 
 }
