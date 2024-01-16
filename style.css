@@ -18,6 +18,68 @@ body {
     margin: 0 auto;
 }
 
+/* header/////////////////////////////////////////// */
+header {
+    padding: 30px 0;
+}
+
+header h3 {
+    color: var(--primary-color);
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.h-i {
+    display: none;
+
+}
+
+header i {
+    font-size: 30px;
+}
+
+header span {
+    color: #FF5400;
+}
+
+header .logo {
+    display: flex;
+    gap: 10px;
+}
+
+header .main-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    gap: 50px;
+
+}
+
+header ul li {
+    list-style: none;
+    color: #424247;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#home {
+    color: #FF5400;
+
+}
+
+
+/* 
+.banner-section input:focus{
+    border: .5px solid #555;
+     
+} */
+
 p {
     color: rgba(19, 19, 24, 0.70);
     font-family: Mulish;
@@ -35,11 +97,6 @@ p {
     border-radius: 18px;
 }
 
-/* 
-.banner-section input:focus{
-    border: .5px solid #555;
-     
-} */
 
 .banner-section h2 {
     color: var(--secendary-color);
@@ -85,7 +142,7 @@ p {
     column-gap: 15px;
     justify-content: center;
     padding: 15px;
-    background-color: rgba(245, 239, 239, 0.23);
+    background-color: rgba(245, 239, 239, 0.502);
     border-radius: 10px;
 }
 
@@ -158,10 +215,10 @@ p,
 }
 
 .popular-tours ul {
-    padding-left: 10px;
+    padding-left: 25px;
 }
 
-button {
+.popular-tours button {
     color: var(--secendary-color);
     font-family: Mulish;
     font-size: 20px;
@@ -338,34 +395,51 @@ h5 {
     color: #FF5400;
     font-size: 20px;
 }
+
 .discound .banner-fx {
-	display: flex;
-	background: url(./images/Images/Group\ 39.png);
-	padding: 64px 0;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: center;
+    display: flex;
+    background: url(./images/Images/Group\ 39.png);
+    padding: 64px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     margin-bottom: 30px;
 }
+
+.discound button {
+    color: var(--secendary-color);
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 12px 25px;
+    background-color: #FF5400;
+    border-radius: 10px;
+    margin-top: 15px;
+
+
+}
+
 .discound .flex-columnn {
     width: 45%;
 }
+
 .discound .flex-column1 {
-	width: 50%;
-	background-color: rgba(245, 239, 239, 0.58);
-	padding: 50px;
-	margin-right: 51px;
-	border-radius: 10px;
-}
-.discound .flex-column12{
-	width: 50%;
-	background-color: rgba(245, 239, 239, 0.58);
-	padding: 50px;
-	margin-left: 51px;
-	border-radius: 10px;
+    width: 50%;
+    background-color: rgba(245, 239, 239, 0.58);
+    padding: 50px;
+    margin-right: 51px;
+    border-radius: 10px;
 }
 
-.discound .amet{
+.discound .flex-column12 {
+    width: 50%;
+    background-color: rgba(245, 239, 239, 0.58);
+    padding: 50px;
+    margin-left: 51px;
+    border-radius: 10px;
+}
+
+.discound .amet {
     padding-right: 100px;
 }
 
@@ -376,11 +450,11 @@ h5 {
     padding: 100px 0;
 } */
 
-.plase-section .flex-column{
+.plase-section .flex-column {
     width: 45%;
 }
 
-.plase-section .flex-column1{
+.plase-section .flex-column1 {
     width: 45%;
     background-image: linear-gradient(to bottom #1a0202 #fcc);
 }
@@ -392,9 +466,10 @@ h5 {
     align-items: center;
 
 }
-video{
-width: 100%;
-border-radius: 10px;
+
+video {
+    width: 100%;
+    border-radius: 10px;
 }
 
 .sub-hading {
@@ -417,7 +492,7 @@ border-radius: 10px;
     padding-left: 20px;
 }
 
-button {
+.plase-section button {
     color: var(--secendary-color);
     font-family: Mulish;
     font-size: 20px;
@@ -430,9 +505,267 @@ button {
 
 }
 
-.plase-section button{
+.plase-section button {
     margin-top: 25px;
 }
-.plase-section h3{
+
+.plase-section h3 {
     padding-bottom: 25px;
+}
+
+
+/* contract */
+
+.contract {
+    padding: 100px 0;
+}
+
+.contract input {
+    width: 95%;
+    padding: 10px;
+    margin-top: 25px;
+    color: rgba(19, 19, 24, 0.30);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+}
+
+.contract img {
+    width: 100%;
+}
+
+.contract .main-column {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4%;
+    align-items: center;
+}
+
+.contract .flex-column1 {
+    width: 38%;
+
+}
+
+.contract .fx {
+    padding: 40px;
+    border: 2px solid #FF5400;
+    border-radius: 10px;
+}
+
+.contract .flex-column2 {
+    width: 58%;
+}
+
+.contract .container {
+    position: relative;
+}
+
+.contract button {
+    color: var(--secendary-color);
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: #FF5400;
+    /* padding: 12px 25px; */
+    /* border-radius: 10px; */
+    /* margin-top: 15px; */
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    border: none;
+}
+
+.btn {
+    background-color: #FF5400;
+    margin-top: 40px;
+    padding: 12px 0;
+    border-radius: 10px;
+}
+
+.contract P {
+    padding-bottom: 15px;
+}
+
+.input-1 {
+    padding-top: 20px;
+}
+
+.transfroms h2 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.transfroms p {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 0;
+
+}
+
+.transfroms {
+    width: 250px;
+    background-color: #FF5400;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 74px;
+    transform: rotate(-30deg);
+    right: 110px;
+}
+
+
+/* footer */
+
+footer .main-column1,
+.main-2 {
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+footer h3 {
+    color: var(--primary-color);
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+footer span {
+    color: #FF5400;
+}
+
+footer .logo {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer i {
+    margin-left: 30px;
+    font-size: 20px;
+    padding: 20px 0 30px 0;
+
+}
+
+footer img {
+    width: 40px;
+    height: 48px;
+}
+
+footer p {
+    padding-top: 20px;
+}
+
+.main-2 {
+    border-top: 1px solid rgba(255, 219, 219, 0.769);
+}
+
+
+@media screen and (max-width: 580px) {
+
+    .container {
+        padding: 0 30px;
+    }
+
+    .h-i {
+        display: block;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    .banner-section .input-submit {
+        row-gap: 15px;
+        flex-direction: column;
+        padding: 40px;
+    }
+
+    .input1 input {
+        width: 95%;
+    }
+
+    .banner-section h2 {
+        font-size: 22px;
+    }
+
+    .banner-section .main-column {
+        padding: 50px 30px;
+    }
+
+    .popular-tours .main-column {
+        grid-template-columns: 1fr;
+    }
+
+    .popular-tours {
+        padding: 50px 0;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .sub-hading {
+        font-size: 20px;
+    }
+
+    .grid-section .flex-column5 {
+        padding-top: 30px;
+        grid-template-areas:
+
+            " flex1"
+            " flex2"
+            " flex3"
+            " flex4"
+            " flex5"
+            " flex6"
+            " flex7"
+            " flex8"
+            " flex9"
+
+        ;
+    }
+
+    .choose-us-section .main-column2 {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+
+    .discound .amet {
+        padding-right: 0px;
+    }
+
+    .discound .flex-columnn {
+        width: 0%;
+    }
+
+    .discound .flex-column1 {
+        width: 100%;
+        padding: 50px;
+        margin-right: 0px;
+        border-radius: 10px;
+        margin: 0 30px;
+    }
+
+    .discound .banner-fx {
+        padding: 200px 0 30px 0;
+        border-radius: 10px;
+    }
+
+    .discound .flex-column12 {
+       width: 100%;
+        margin-left: 0px;
+        margin: 0 30px;
+    }
+
+
+
 }
