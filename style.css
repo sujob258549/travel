@@ -42,10 +42,10 @@ header i {
 header span {
     color: #FF5400;
 }
-
 header .logo {
-    display: flex;
-    gap: 10px;
+	display: flex;
+	gap: 10px;
+	align-items: center;
 }
 
 header .main-column {
@@ -399,7 +399,7 @@ h5 {
 
 .discound .banner-fx {
     display: flex;
-    background: url(./images/Images/Group\ 39.png);
+    background: url(./images/Images/banner\ 2.png);
     padding: 64px 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -426,7 +426,7 @@ h5 {
 
 .discound .flex-column1 {
     width: 50%;
-    background-color: rgba(245, 239, 239, 0.58);
+    background-color: rgba(245, 239, 239, 0.796);
     padding: 50px;
     margin-right: 51px;
     border-radius: 10px;
@@ -434,7 +434,7 @@ h5 {
 
 .discound .flex-column12 {
     width: 50%;
-    background-color: rgba(245, 239, 239, 0.58);
+    background-color: rgba(245, 239, 239, 0.769);
     padding: 50px;
     margin-left: 51px;
     border-radius: 10px;
@@ -622,6 +622,43 @@ video {
     right: 110px;
 }
 
+/* extra//////////////////// */
+.extra h1 {
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+}
+
+@keyframes micro {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 900px;
+    }
+}
+
+.extra .main-column1 {
+    background-color: #fcc;
+    padding: 100px 20px 50px 20px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px;
+}
+
+.extra .flex-column img {
+    position: relative;
+    animation: micro 5s ease-out .1s infinite alternate;
+    width: 200px;
+    margin-top: 50px;
+
+}
+
+.extra .flex-column1 img {
+    width: 100%;
+
+}
 
 /* footer */
 
@@ -669,15 +706,212 @@ footer p {
     border-top: 1px solid rgba(255, 219, 219, 0.769);
 }
 
+.slicknav_menu {
+    display: none;
+}
+
+
+@media screen and (max-width: 992px) {
+    .banner-section .input-submit {
+        flex-direction: column;
+        padding: 50px;
+
+    }
+
+    .input1 input {
+        width: 97%;
+    }
+
+    .banner-section input,
+    .banner-section select {
+        margin-top: 20px;
+    }
+
+    .banner-section .main-column {
+        padding: 40px;
+    }
+
+    .container {
+        padding: 0 60px;
+    }
+
+    .banner-section h2 {
+        font-size: 55px;
+    }
+
+    .popular-tours .main-column {
+        grid-template-columns: 1fr;
+    }
+
+    .popular-tours {
+        padding: 80px 0;
+    }
+
+    .grid-section .flex-column5 {
+        grid-template-areas:
+            "flex1 flex2"
+            "flex3 flex4"
+            "flex5 flex6"
+            "flex7 flex7"
+        ;
+
+    }
+
+    .choose-us-section .main-column3 .flex-column4 {
+        margin: 0 160px;
+    }
+
+    .plase-section .flex-column1 {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .plase-section .main-column {
+        flex-direction: column;
+    }
+
+    .plase-section .flex-column {
+        width: 100%;
+    }
+
+    .contract .flex-column2 {
+        width: 100%;
+    }
+
+    .contract .main-column {
+        flex-direction: column-reverse;
+    }
+
+    .contract .flex-column1 {
+        width: 60%;
+        margin-top: 50px;
+    }
+
+    .transfroms {
+        bottom: 555px;
+        transform: rotate(-37deg);
+        right: 60px;
+    }
+
+
+    @keyframes micro {
+        from {
+            left: 0;
+        }
+
+        to {
+            left: 60%;
+        }
+    }
+
+    footer .main-column1,
+    .main-2 {
+        width: 100%;
+    }
+
+    header ul {
+        display: none;
+    }
+    .slicknav_menu {
+        display: block;
+        position: absolute;
+        right: 54px;
+        top: 38px;
+        background: transparent;
+        margin-top: 39px;
+    }
+
+    .slicknav_btn {
+        background: transparent;
+       
+    }
+
+    .slicknav_menu .slicknav_icon {
+        display: none;
+    }
+
+    .slicknav_collapsed{
+        position: relative;
+
+    }
+    .slicknav_collapsed::after {
+        position: absolute;
+        content: '\f0c9';
+        top: -35px;
+        left: -4px;
+        font-size: 35px;
+        color: #173a69;
+        font-family: fontawesome;
+    }
+
+    .slicknav_open{
+        position: relative;
+    }
+
+    .slicknav_open::after {
+        content: "\f2d3";
+        position: absolute;
+        font-family: fontawesome;
+        top: -35px;
+        left: -4px;
+        font-size: 40px;
+        color: #173a69;
+    }
+
+   .slicknav_menu .slicknav_menutxt{
+        display: none;
+    }
+    .slicknav_nav .slicknav_txtnode {
+        margin-left: 15px;
+        font-size: 25px;
+    }
+
+    .slicknav_nav {
+        background-color: #000;
+        height: 100vh;
+        padding: 20px 250px 0 20px ;
+        border-radius: 19px;
+    }
+    
+}
 
 @media screen and (max-width: 580px) {
+/* 
+    .slicknav_btn::after {
+        top: -22px;
+        left: 16px;
+        font-size: 25px;
+    } */
 
+    .slicknav_collapsed::after {
+        top: -23px;
+        left: 0px;
+    }
+    .slicknav_collapsed::after {
+        top: -35px;
+        left: -5px;
+    }
+    .slicknav_menu {
+        display: block;
+        position: absolute;
+        right: 26px;
+        top: 53px;
+        background: transparent;
+        margin-top: 23px;
+    }
     .container {
         padding: 0 30px;
     }
 
-    .h-i {
-        display: block;
+    .slicknav_nav {
+        background-color: #000;
+        height: 100vh;
+        padding: 20px 130px 0 20px;
+    }
+
+
+    header h3 {
+        font-size: 22px;
     }
 
     header ul {
@@ -779,7 +1013,7 @@ footer p {
         row-gap: 9px;
     }
 
-    .plase-section .main-column{
+    .plase-section .main-column {
         flex-direction: column;
         row-gap: 50px;
     }
@@ -789,17 +1023,21 @@ footer p {
         row-gap: 50px;
     }
 
-    .plase-section .flex-column1, .plase-section .flex-column, .contract .flex-column1, .contract .flex-column2 {
-       width: 100%;
+    .plase-section .flex-column1,
+    .plase-section .flex-column,
+    .contract .flex-column1,
+    .contract .flex-column2 {
+        width: 100%;
     }
+
     .discound {
         padding: 50px 0;
     }
 
     .transfroms {
-       bottom: 45px;
-       width: 140px;
-       right: 35px;
+        bottom: 45px;
+        width: 140px;
+        right: 35px;
 
     }
 
@@ -807,9 +1045,11 @@ footer p {
         padding: 50px 0;
     }
 
-    footer .main-column1, .main-2 {
+    footer .main-column1,
+    .main-2 {
         width: 100%;
     }
+
     .transfroms p {
         font-size: 19px;
     }
@@ -817,8 +1057,25 @@ footer p {
     .transfroms h2 {
         font-size: 12px;
     }
-    
-     
+
+    .extra .flex-column img {
+        position: relative;
+        animation: micro 5s ease-out .1s infinite alternate;
+        width: 100px;
+        margin-top: 50px;
+
+    }
+
+
+    @keyframes micro {
+        from {
+            left: 0;
+        }
+
+        to {
+            left: 70%;
+        }
+    }
 
 
 }
