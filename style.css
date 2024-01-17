@@ -147,13 +147,12 @@ p {
     background-color: rgba(245, 239, 239, 0.502);
     border-radius: 10px;
 }
-
 .banner-section .flex-column2 {
-    max-width: 800px;
-    margin: 0 auto;
-
+	max-width: 800px;
+	margin: 0 auto;
+	box-shadow: 1px 1px 7px;
+	border-radius: 10px;
 }
-
 .input1 input {
     width: 165px;
 }
@@ -293,13 +292,12 @@ p,
 .flex7 {
     grid-area: flex7;
 }
-
 .grid-section img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 1px 1px 5px;
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 10px;
+	box-shadow: 1px 1px 19px;
 }
 
 .grid-section .flex-column5 {
@@ -350,6 +348,7 @@ p,
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
     padding: 20px;
+    box-shadow: 1px 1px 20px;
 }
 
 .choose-us-section .main-column2 .flex-column2 {
@@ -357,6 +356,7 @@ p,
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
     padding: 20px;
+    box-shadow: 1px 1px 20px;
 
 }
 
@@ -367,6 +367,7 @@ p,
     padding: 20px;
     max-width: 530px;
     margin: 0 auto;
+    box-shadow: 1px 1px 20px;
 }
 
 .choose-us-section .main-column3 {
@@ -431,7 +432,8 @@ h5 {
     margin-bottom: 30px;
     border-radius: 10px;
 }
-.discound .banner-fx1{
+
+.discound .banner-fx1 {
     display: flex;
     background: url(./images/Images/banner\ 2.png);
     padding: 64px 0;
@@ -930,9 +932,33 @@ footer p {
     .discound .amet {
         padding-right: 0px;
     }
+
     .transfroms {
         bottom: 68px;
         right: 81px;
+    }
+
+    .discound .flex-column12 {
+        margin-left: 30px;
+        padding: 50px 25px;
+    }
+
+    .discound .flex-column1{
+        margin-right: 30px;
+        padding: 50px 25px;
+    }
+
+    .discound .banner-fx {
+        padding: 64px 0 30px;
+       
+    }
+
+    .discound .banner-fx1{
+        padding: 64px 0 30px;
+       
+    }
+    .discound {
+        padding: 49px 0;
     }
 }
 
@@ -1202,12 +1228,21 @@ footer p {
     .icon {
         gap: 15px;
     }
+
+     .discound .banner-fx1 {
+        padding: 200px 0 20px;
+    }
+  /*
+    .discound .banner-fx {
+        padding: 64px 0 20px;
+    } */
 }
 
 @media screen and (max-width: 480px) {
     .input5::after {
         left: 33%;
     }
+
     .contract .fx {
         padding: 40px 20px;
     }
