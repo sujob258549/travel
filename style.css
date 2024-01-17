@@ -926,7 +926,7 @@ footer p {
     .banner-section .input-submit {
         row-gap: 15px;
         flex-direction: column;
-        padding: 40px;
+        padding: 20px;
     }
 
     .input1 input {
