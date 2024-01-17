@@ -1111,4 +1111,8 @@ footer p {
         font-size: 20px;
     }
 
+    .contract .flex-column1 {
+        margin-top: 0px;
+    }
+
 }
