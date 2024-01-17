@@ -706,9 +706,9 @@ footer p {
 
 
 .main-2 {
-    border-top: 1px solid rgba(255, 219, 219, 0.769);
+	border-top: 1px solid rgba(255, 219, 219, 0.769);
+	padding-bottom: 20px;
 }
-
 .slicknav_menu {
     display: none;
 }
