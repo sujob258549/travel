@@ -178,6 +178,20 @@ p {
     background-color: #fff;
 }
 
+.input5{
+   position: relative;
+}
+
+.input5::after{
+   position: absolute;
+   content: '\f002';
+   left: 25%;
+   top: 50%;
+   font-family: fontawesome;
+   transform: translateY(-50%);
+   color: #fff;
+}
+
 
 
 /* popular-tours */
@@ -718,6 +732,7 @@ footer p {
     .banner-section .input-submit {
         flex-direction: column;
         padding: 50px;
+        row-gap: 25px;
 
     }
 
@@ -870,8 +885,16 @@ footer p {
         padding: 20px 250px 0 20px ;
         border-radius: 19px;
     }
-    
+    .input5::after {
+      left: 40%;
+    }
 }
+
+@media screen and (max-width: 768px) {
+    .input5::after {
+      left: 35%;
+    }
+  }
 
 @media screen and (max-width: 580px) {
 /* 
@@ -1109,5 +1132,14 @@ footer p {
     .contract .flex-column1 {
         margin-top: 0px;
     }
-
+    
+    .input5::after {
+        left: 37%;
+    }
 }
+
+@media screen and (max-width: 480px) {
+    .input5::after {
+      left: 33%;
+    }
+  }
