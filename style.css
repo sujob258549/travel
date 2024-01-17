@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -398,17 +399,24 @@ h5 {
     font-weight: 800;
 }
 
-.discound .m-flex {
-    display: flex;
-    gap: 22px;
-    align-items: center;
-    flex-wrap: wrap;
+.discound .m-flex  {
+	display: flex;
+    gap: 15px;
+	align-items: center;
+	flex-wrap: wrap;
 }
 
+.discound .m-flex p{
+    padding: 0;
+}
 .discound i {
     margin-right: 5px;
     color: #FF5400;
     font-size: 20px;
+}
+
+.discound p{
+    padding-bottom: 30px;
 }
 
 .discound .banner-fx {
@@ -742,7 +750,7 @@ footer p {
     }
 
     .input1 input {
-        width: 97%;
+        width: 100%;
     }
 
     .banner-section .main-column {
@@ -893,6 +901,14 @@ footer p {
     .input5::after {
       left: 40%;
     }
+    .discound .amet {
+        padding-right: 0px;
+    }
+    .discound .flex-column1 {
+        padding: 50px 30px;
+        margin-right: 51px;
+        border-radius: 10px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -953,7 +969,7 @@ footer p {
     }
 
     .input1 input {
-        width: 95%;
+        width: 100%;
     }
 
     .banner-section h2 {
