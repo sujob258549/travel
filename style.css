@@ -725,11 +725,6 @@ footer p {
         width: 97%;
     }
 
-    .banner-section input,
-    .banner-section select {
-        margin-top: 20px;
-    }
-
     .banner-section .main-column {
         padding: 40px;
     }
@@ -926,7 +921,7 @@ footer p {
     .banner-section .input-submit {
         row-gap: 15px;
         flex-direction: column;
-        padding: 20px;
+        padding: 40px 20px;
     }
 
     .input1 input {
