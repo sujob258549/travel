@@ -423,12 +423,23 @@ h5 {
 
 .discound .banner-fx {
     display: flex;
+    background: url(./images/Images/Group\ 39.png);
+    padding: 64px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.discound .banner-fx1{
+    display: flex;
     background: url(./images/Images/banner\ 2.png);
     padding: 64px 0;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     margin-bottom: 30px;
+    border-radius: 10px;
 }
 
 .discound button {
