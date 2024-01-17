@@ -43,10 +43,11 @@ header i {
 header span {
     color: #FF5400;
 }
+
 header .logo {
-	display: flex;
-	gap: 10px;
-	align-items: center;
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 
 header .main-column {
@@ -179,18 +180,18 @@ p {
     background-color: #fff;
 }
 
-.input5{
-   position: relative;
+.input5 {
+    position: relative;
 }
 
-.input5::after{
-   position: absolute;
-   content: '\f002';
-   left: 25%;
-   top: 50%;
-   font-family: fontawesome;
-   transform: translateY(-50%);
-   color: #fff;
+.input5::after {
+    position: absolute;
+    content: '\f002';
+    left: 25%;
+    top: 50%;
+    font-family: fontawesome;
+    transform: translateY(-50%);
+    color: #fff;
 }
 
 
@@ -399,23 +400,24 @@ h5 {
     font-weight: 800;
 }
 
-.discound .m-flex  {
-	display: flex;
+.discound .m-flex {
+    display: flex;
     gap: 15px;
-	align-items: center;
-	flex-wrap: wrap;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.discound .m-flex p{
+.discound .m-flex p {
     padding: 0;
 }
+
 .discound i {
     margin-right: 5px;
     color: #FF5400;
     font-size: 20px;
 }
 
-.discound p{
+.discound p {
     padding-bottom: 30px;
 }
 
@@ -569,6 +571,8 @@ video {
 
 .contract .flex-column1 {
     width: 38%;
+    box-shadow: 1px 1px 30px #000;
+    border-radius: 10px;
 
 }
 
@@ -715,10 +719,10 @@ footer i {
 
 }
 
-.icon{
+.icon {
     display: flex;
     gap: 30px;
-   justify-content: center;
+    justify-content: center;
 }
 
 footer img {
@@ -733,9 +737,10 @@ footer p {
 
 
 .main-2 {
-	border-top: 1px solid rgba(255, 219, 219, 0.769);
-	padding-bottom: 20px;
+    border-top: 1px solid rgba(255, 219, 219, 0.769);
+    padding-bottom: 20px;
 }
+
 .slicknav_menu {
     display: none;
 }
@@ -805,12 +810,17 @@ footer p {
     }
 
     .contract .main-column {
-        flex-direction: column-reverse;
+        flex-direction: column;
+        row-gap: 50px;
     }
 
     .contract .flex-column1 {
         width: 60%;
         margin-top: 50px;
+    }
+
+    .contract {
+        padding: 60px 0;
     }
 
     .transfroms {
@@ -838,6 +848,7 @@ footer p {
     header ul {
         display: none;
     }
+
     .slicknav_menu {
         display: block;
         position: absolute;
@@ -849,17 +860,18 @@ footer p {
 
     .slicknav_btn {
         background: transparent;
-       
+
     }
 
     .slicknav_menu .slicknav_icon {
         display: none;
     }
 
-    .slicknav_collapsed{
+    .slicknav_collapsed {
         position: relative;
 
     }
+
     .slicknav_collapsed::after {
         position: absolute;
         content: '\f0c9';
@@ -870,7 +882,7 @@ footer p {
         font-family: fontawesome;
     }
 
-    .slicknav_open{
+    .slicknav_open {
         position: relative;
     }
 
@@ -884,9 +896,10 @@ footer p {
         color: #173a69;
     }
 
-   .slicknav_menu .slicknav_menutxt{
+    .slicknav_menu .slicknav_menutxt {
         display: none;
     }
+
     .slicknav_nav .slicknav_txtnode {
         margin-left: 15px;
         font-size: 25px;
@@ -895,30 +908,42 @@ footer p {
     .slicknav_nav {
         background-color: #000;
         height: 100vh;
-        padding: 20px 250px 0 20px ;
+        padding: 20px 250px 0 20px;
         border-radius: 19px;
     }
+
     .input5::after {
-      left: 40%;
+        left: 40%;
     }
+
     .discound .amet {
         padding-right: 0px;
     }
-    .discound .flex-column1 {
-        padding: 50px 30px;
-        margin-right: 51px;
-        border-radius: 10px;
+    .transfroms {
+        bottom: 68px;
+        right: 81px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .input5::after {
-      left: 35%;
+        left: 35%;
     }
-  }
+
+    /* .transfroms {
+        bottom: 544px;
+        right: 81px;
+    } */
+}
+
+@media screen and (max-width: 640px) {
+    .choose-us-section .main-column3 .flex-column4 {
+        margin: 0 103px;
+    }
+}
 
 @media screen and (max-width: 580px) {
-/* 
+    /* 
     .slicknav_btn::after {
         top: -22px;
         left: 16px;
@@ -930,11 +955,13 @@ footer p {
         left: 0px;
         font-size: 30px;
     }
+
     .slicknav_collapsed::after {
         top: -35px;
         left: 0px;
         font-size: 25px;
     }
+
     .slicknav_menu {
         display: block;
         position: absolute;
@@ -943,6 +970,7 @@ footer p {
         background: transparent;
         margin-top: 23px;
     }
+
     .container {
         padding: 0 30px;
     }
@@ -1080,10 +1108,9 @@ footer p {
     }
 
     .transfroms {
-        bottom: 45px;
+        bottom: 38px;
         width: 140px;
-        right: 35px;
-
+        right: 39px;
     }
 
     .contract {
@@ -1121,12 +1148,14 @@ footer p {
             left: 70%;
         }
     }
+
     .extra .main-column1 {
         padding: 42px 20px 27px 20px;
         margin-bottom: 50px;
         border-radius: 10px;
         box-shadow: 1px 1px 15px;
     }
+
     .extra h1 {
         font-size: 30px;
     }
@@ -1140,12 +1169,13 @@ footer p {
     }
 
     footer h3 {
-       font-size: 21px;
+        font-size: 21px;
     }
 
     .title4 {
-       font-size: 20px;
+        font-size: 20px;
     }
+
     .grid-section h4 {
         font-size: 20px;
     }
@@ -1153,10 +1183,11 @@ footer p {
     .contract .flex-column1 {
         margin-top: 0px;
     }
-    
+
     .input5::after {
         left: 37%;
     }
+
     .icon {
         gap: 15px;
     }
@@ -1164,6 +1195,9 @@ footer p {
 
 @media screen and (max-width: 480px) {
     .input5::after {
-      left: 33%;
+        left: 33%;
     }
-  }
+    .contract .fx {
+        padding: 40px 20px;
+    }
+}
